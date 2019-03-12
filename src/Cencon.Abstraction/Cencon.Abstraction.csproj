@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <Company>Tieto</Company>
+    <Authors>Marek Pokorný</Authors>
+    <Product>Cencon</Product>
+    <Description>Cencon is library to simplify to build a CenShare integration in applications written in .NET (both FW and Core). Cencon.Abstract contains abstract types implementable by component writers.</Description>
+    <PackageProjectUrl>https://github.com/MarekPokornyOva/Cencon</PackageProjectUrl>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/MarekPokornyOva/Cencon</RepositoryUrl>
+    <PackageIconUrl>https://github.com/MarekPokornyOva/Cencon/blob/master/icon.png?raw=true</PackageIconUrl>
+    <PackageTags>CenShare</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A2085D2C-D0BF-4336-AC35-C88AD0D12238}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{DB0A21C2-81D6-4BE0-B98C-BBE02DEC302B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9F7750EE-3CBA-4B36-A60B-6AF617557122}"
+	ProjectSection(SolutionItems) = preProject
+		icon.png = icon.png
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cencon.Abstraction", "src\Cencon.Abstraction\Cencon.Abstraction.csproj", "{82D1BD7C-2EF6-4B83-9C27-63FE2566DF57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cencon.Core", "src\Cencon.Core\Cencon.Core.csproj", "{B634E861-48A7-40F4-A67E-FB5EB45DD4F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cencon.Helpers", "src\Cencon.Helpers\Cencon.Helpers.csproj", "{1E86842B-1683-430F-90F9-018F8632F531}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cencon.Xml", "src\Cencon.Xml\Cencon.Xml.csproj", "{BA381D36-6DC3-40FA-9FE0-5855DE633086}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products", "Samples\Products\Products.csproj", "{DCF1A625-CD37-4DD8-9603-5D9C3A063622}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82D1BD7C-2EF6-4B83-9C27-63FE2566DF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D1BD7C-2EF6-4B83-9C27-63FE2566DF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D1BD7C-2EF6-4B83-9C27-63FE2566DF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D1BD7C-2EF6-4B83-9C27-63FE2566DF57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B634E861-48A7-40F4-A67E-FB5EB45DD4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B634E861-48A7-40F4-A67E-FB5EB45DD4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B634E861-48A7-40F4-A67E-FB5EB45DD4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B634E861-48A7-40F4-A67E-FB5EB45DD4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E86842B-1683-430F-90F9-018F8632F531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E86842B-1683-430F-90F9-018F8632F531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E86842B-1683-430F-90F9-018F8632F531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E86842B-1683-430F-90F9-018F8632F531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA381D36-6DC3-40FA-9FE0-5855DE633086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA381D36-6DC3-40FA-9FE0-5855DE633086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA381D36-6DC3-40FA-9FE0-5855DE633086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA381D36-6DC3-40FA-9FE0-5855DE633086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCF1A625-CD37-4DD8-9603-5D9C3A063622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCF1A625-CD37-4DD8-9603-5D9C3A063622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCF1A625-CD37-4DD8-9603-5D9C3A063622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCF1A625-CD37-4DD8-9603-5D9C3A063622}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82D1BD7C-2EF6-4B83-9C27-63FE2566DF57} = {A2085D2C-D0BF-4336-AC35-C88AD0D12238}
+		{B634E861-48A7-40F4-A67E-FB5EB45DD4F3} = {A2085D2C-D0BF-4336-AC35-C88AD0D12238}
+		{1E86842B-1683-430F-90F9-018F8632F531} = {A2085D2C-D0BF-4336-AC35-C88AD0D12238}
+		{BA381D36-6DC3-40FA-9FE0-5855DE633086} = {A2085D2C-D0BF-4336-AC35-C88AD0D12238}
+		{DCF1A625-CD37-4DD8-9603-5D9C3A063622} = {DB0A21C2-81D6-4BE0-B98C-BBE02DEC302B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56E31610-19F2-4F3A-80DC-821FAB811630}
+	EndGlobalSection
+EndGlobal

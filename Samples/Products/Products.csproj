@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Cencon.Helpers\Cencon.Helpers.csproj" />
+    <ProjectReference Include="..\..\src\Cencon.Xml\Cencon.Xml.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Marek Pokorný</Authors>
+    <Company>Tieto</Company>
+    <Product>Cencon</Product>
+    <Description>Cencon is library to simplify to build a CenShare integration in applications written in .NET (both FW and Core). Cencon.Core contains default client implementation.</Description>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/MarekPokornyOva/Cencon</RepositoryUrl>
+    <PackageIconUrl>https://github.com/MarekPokornyOva/Cencon/blob/master/icon.png?raw=true</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/MarekPokornyOva/Cencon</PackageProjectUrl>
+    <PackageTags>CenShare</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cencon.Abstraction\Cencon.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>
